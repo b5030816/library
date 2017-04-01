@@ -2,7 +2,7 @@ package com.lhenry
 
 class Course {
 String title 
-Int code
+int code
 String leader
 String department 
 String description

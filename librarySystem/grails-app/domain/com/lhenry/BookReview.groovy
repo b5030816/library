@@ -3,7 +3,7 @@ package com.lhenry
 class BookReview {
 String reviewTitle
 Book title
-date dateCreated
+Date dateCreated
 Student name
 String review
     
