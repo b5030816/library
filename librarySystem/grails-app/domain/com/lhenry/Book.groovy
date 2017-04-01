@@ -7,10 +7,12 @@ String author
 int isbn
 date dateBorrowed
 date returnDate
-String student
+Student name
 Boolean overdue
-
-    static constraints = {
+String toString()
+   
+static hasMany=[bookReviews: BookReview]
+ static constraints = {
 title blank:false, nullable:false
 subject blank:false, nullable:false
 author blank:false, nullable:false

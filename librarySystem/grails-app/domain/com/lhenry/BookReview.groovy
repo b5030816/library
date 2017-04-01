@@ -1,14 +1,22 @@
 package com.lhenry
 
 class BookReview {
-String book
+String reviewTitle
+Book title
 date dateCreated
-String student
+Student name
 String review
-    static constraints = {
-book blank:false, nullable:false
+    
+String toString()
+{
+return reviewTitle
+}
+
+static constraints = {
+reviewTitle blank:false, nullable:false
+title blank:false, nullable:false
 dateCreated blank:false, nullable:false
-student blank:false, nullable:false
+name blank:false, nullable:false
 review blank:false, nullable:false
     }
 }
