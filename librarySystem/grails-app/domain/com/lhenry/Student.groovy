@@ -6,10 +6,10 @@ String email
 String userName
 String password
 int studentId
-Course title
+Course course
 String toString()
 {
-return title }
+return name }
 
 
 static hasMany=[books: Book, bookReviews: BookReview]
