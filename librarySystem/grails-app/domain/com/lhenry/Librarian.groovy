@@ -8,6 +8,10 @@ String userName
 String password
 String telephone
 Library library
+
+String toString()
+{
+return name }
     
 static constraints = {
 name blank:false, nullable:false

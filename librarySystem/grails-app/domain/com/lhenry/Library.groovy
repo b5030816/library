@@ -6,6 +6,9 @@ String address
 String openingHours
 String location
 String studySpaces
+String toString()
+{
+return building }
    
 static hasMany=[librarians: Librarian, books: Book, students: Student]
  

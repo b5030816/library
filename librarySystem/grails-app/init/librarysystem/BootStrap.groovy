@@ -4,7 +4,7 @@ class BootStrap {
 
     def init = { servletContext ->
    
-def libraryA =new Library(
+/*def libraryA =new Library(
 building:'Adsetts',
 address:'Adsetts street, Sheffield,S1 1WB',
 openingHours:'8:00am-8:00pm',
@@ -104,7 +104,7 @@ library: libraryB
 def BookReviewA =new BookReview(
 reviewTitle:'Programming language Joe.B',
 book: BookA,
-dateCreated: new Date ('01/05/2017'),
+dateMade: new Date ('01/05/2017'),
 student: studentA,
 review:'Programming language review A'
 ).save()
@@ -112,10 +112,10 @@ review:'Programming language review A'
 def BookReviewB =new BookReview(
 reviewTitle:'coding help Jack.S',
 book: BookB,
-dateCreated: new Date ('01/04/2017'),
+dateMade: new Date ('01/04/2017'),
 student:studentB,
 review:'coding help review B'
-).save()
+).save()*/
 
 
  }
