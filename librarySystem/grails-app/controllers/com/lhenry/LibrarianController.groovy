@@ -4,6 +4,35 @@ class LibrarianController {
 
 def scaffold= Librarian
 
+def search(){
+}
+
+def results(){
+
+
+
+def studentProps = Student.metaClass.properties*.name
+
+def students = Student.withCriteria{
+
+	"${params.queryType}"{
+
+	params.each {field, value ->
+
+	if(studentProps.grep(field) && value){
+
+	ilike(field, value)
+					  }
+				}
+}
+
+}
+
+
+
+[students:students]
+
+}
 
 def login() {
 }

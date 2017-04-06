@@ -11,7 +11,7 @@
 
     <div id="content" role="main">
         <section class="row colset-2-its">
-            <h1>Welcome to University of Sreda</h1>
+            <h1>Welcome to Sheffield Hallam Univeristy Library</h1>
 
            <div class="row">
 <asset:image src="library-banner-image.jpg"/>
