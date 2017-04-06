@@ -16,10 +16,9 @@
 
 <div class="row">
 <asset:image src="library banner.jpg"/>
-</div>
-   
-<g:librarianloginToggle/>
 
+   
+<div class="clearfix"><g:loginToggle/> </div>
 </div>
     
     <g:layoutBody/>

@@ -11,6 +11,7 @@ def validate() {
 def user = Student.findByUserName(params.username)
 if (user && user.password == params.password){
 session.user=user 
+session.role='student'
 render view:'home'
 }
 else{
@@ -22,7 +23,8 @@ render view:'login'
 }
 def logout = {
 session.user = null
-redirect(urri:'/')
+session.role = null
+redirect(uri:'/')
 }
 }
 
